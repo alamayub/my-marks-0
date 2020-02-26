@@ -4,6 +4,9 @@
     <f7-list media-list style="margin-top: 0px;">
       <f7-list-item v-for="(announcement, index) in announcements" :key="index" :link="announcement | toUrl" :title="announcement.title" :after="announcement.time" :text="announcement.content"></f7-list-item>
     </f7-list>
+    <f7-list media-list style="margin-top: 0px;">
+      <f7-list-item v-for="(announcement, index) in announcements" :key="index" :link="announcement | toUrl" :title="announcement.title" :after="announcement.time" :text="announcement.content"></f7-list-item>
+    </f7-list>
   </f7-page>
 </template>
 
